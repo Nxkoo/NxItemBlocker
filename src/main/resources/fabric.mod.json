@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "nxitemblocker",
+  "version": "${version}",
+  "name": "NxItemBlocker",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/nxitemblocker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.nxkoo.nxitemblocker.client.NxitemblockerClient"
+    ],
+    "main": [
+      "com.github.nxkoo.nxitemblocker.Nxitemblocker"
+    ]
+  },
+  "mixins": [
+    "nxitemblocker.mixins.json",
+    {
+      "config": "nxitemblocker.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
