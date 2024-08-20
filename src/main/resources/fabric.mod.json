@@ -3,17 +3,18 @@
   "id": "nxitemblocker",
   "version": "${version}",
   "name": "NxItemBlocker",
-  "description": "",
-  "authors": ["NykooX"],
-  "contact": {
-    "homepage": "https://github.com/nxkoo"
-  },
+  "description": "Blocks items from being used in the Item Frame.",
+  "authors": [],
+  "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/nxitemblocker/icon.png",
   "environment": "*",
   "entrypoints": {
+    "client": [
+      "com.github.nxkoo.nxitemblocker.client.NxItemBlockerClient"
+    ],
     "main": [
-      "com.github.nxkoo.nxitemblocker.Nxitemblocker"
+      "com.github.nxkoo.nxitemblocker.NxItemBlocker"
     ]
   },
   "depends": {

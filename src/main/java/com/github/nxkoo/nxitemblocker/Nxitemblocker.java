@@ -9,7 +9,7 @@ import net.minecraft.util.ActionResult;
 
 import java.util.List;
 
-public class Nxitemblocker implements ModInitializer {
+public class NxItemBlocker implements ModInitializer {
     private final SimpleConfig CONFIG = SimpleConfig.of("nxitemblocker").provider(this::provider).request();
     private String provider(String pvd) {
         return "nxitemblocker";
