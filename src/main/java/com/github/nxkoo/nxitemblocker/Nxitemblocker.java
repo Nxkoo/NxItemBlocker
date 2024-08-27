@@ -14,7 +14,8 @@ public class NxItemBlocker implements ModInitializer {
     private String provider(String pvd) {
         return "nxitemblocker";
     }
-    private final List<String> blockedItems = CONFIG.getStringList("blocked_items");
+    private final List<String> blockedItems = CONFIG.getStringList("blockedItems");
+
     @Override
     public void onInitialize() {
         UseEntityCallback.EVENT.register((player, world, hand, entity, hitResult) -> {
