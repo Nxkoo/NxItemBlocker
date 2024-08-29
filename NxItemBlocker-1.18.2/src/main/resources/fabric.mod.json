@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "nxitemblocker-1_18_2",
+  "version": "${version}",
+  "name": "NxItemBlocker-1.18.2",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/nxitemblocker-1_18_2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.nxkoo.nxitemblocker.client.NxItemBlockerClient"
+    ],
+    "main": [
+      "com.github.nxkoo.nxitemblocker.NxItemBlocker"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
