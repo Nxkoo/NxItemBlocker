@@ -86,10 +86,10 @@ public class SimpleConfig {
 
     private static final String BLOCKED_ITEMS =
             """
-                    # List of blocked items for item frames
-                    # Separate items by comma, no spaces!
-                    # Example: diamond_sword,iron_sword,spyglass
-                    blockedItems=
+            # List of blocked items for item frames
+            # Separate items by comma, no spaces!
+            # Example: diamond_sword,iron_sword,spyglass
+            blockedItems=
             """;
 
     private void createConfig() throws IOException {
